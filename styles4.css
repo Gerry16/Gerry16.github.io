@@ -1,0 +1,82 @@
+.mesEjercicio{
+  width: 12.5%;
+  display: inline-block;
+  margin: 15px;
+}
+
+button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 10px;
+  border: none;
+  background-color: darkblue;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+button:hover {
+  background-color: #183be6;
+  transform: translateY(-2px);
+}
+
+.list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  float: left;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 125px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+.navText{
+  display: block;
+  text-align: right;
+  margin: 0;
+  padding: 0%;
+}
+
+body{
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+}
+
+h2{
+  padding: 0;
+  margin: 10px;
+}
+
